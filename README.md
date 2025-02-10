@@ -6,8 +6,8 @@ The following steps outline the process followed in the analysis:
 - #### Data Collection:
  - Collected the dataset "AirQualityUCI.csv" with hourly air quality readings collected from a gas sensor array.
 - #### Data Preprocessing:
-  - Handled missing values represented as -200, replacing them with NaN and imputing using the mean.
-  - Outliers were detected and managed using Winsorization to minimize their impact on the model.
+  - Handled missing values 
+  - Outliers were detected and managed using IQR methos.
 - #### Exploratory Data Analysis (EDA):
  - Conducted visualizations to explore the data distribution and identify trends or anomalies.
  - Generated a correlation matrix heatmap to assess relationships between different features and the target variable.
